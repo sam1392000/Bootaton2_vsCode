@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        .signup__page {
+            display: flex;
+            flex-direction: row;
+            background-color: #eaf0f0;
+        }
+
+        .Signup__img {
+            width: 60%;
+        }
+
+        .Signup__form {
+            display: flex;
+            flex-direction: column;
+            padding-top: 150px;
+            margin-right: 50px;
+            width: 30%;
+
+        }
+
+        .input_box {
+            height: 50px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            background-color: #F5F5F5;
+            border: none
+        }
+
+        p {
+            padding-left: 30%;
+            margin-top: -20px;
+        }
+
+        button {
+            height: 50px;
+        }
+
+        .signin_btn {
+            height: 50px;
+            margin-bottom: 30px;
+            background-color: #512DA8;
+            border-radius: 15px;
+            color: aliceblue;
+            z-index: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signup__page">
+        <div class="Signup__img">
+
+        </div>
+        <div class="Signup__form">
+            Email: <input type="email" name="email" placeholder="       Enter your Email..." class="input_box" />
+            Password: <input type="password" name="password" placeholder="      Enter your password..."
+                class="input_box" />
+            <input type="button" value="Signin" class="signin_btn" />
+            <p>New User? <a href="#">Sign up</a></p>
+            <button>Google</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
